@@ -56,7 +56,6 @@ Due to Windows environment compatibility, we recommend using the included `local
 ```bash
 curl http://localhost:5000/dev/jobs
 ```
-
 ### 2. Create Candidate
 ```bash
 curl -X POST http://localhost:5000/dev/candidates \
