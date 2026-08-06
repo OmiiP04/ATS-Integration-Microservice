@@ -72,4 +72,3 @@ curl -X POST http://localhost:5000/dev/candidates \
 ### 3. Get Applications
 ```bash
 curl "http://localhost:5000/dev/applications?job_id=12345"
-```
