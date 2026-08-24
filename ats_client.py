@@ -167,6 +167,7 @@ class GreenhouseClient:
                     "status": app.get('status') or "APPLIED"
                 })
             return applications
+            
 
         except requests.exceptions.RequestException as e:
             print(f"Error fetching applications: {e}")
