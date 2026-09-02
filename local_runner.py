@@ -41,6 +41,7 @@ def route_create_candidate():
     response = create_candidate(event, context)
     return jsonify(json.loads(response['body'])), response['statusCode']
 
+
 @app.route('/dev/applications', methods=['GET'])
 def route_get_applications():
     query_params = request.args.to_dict()
