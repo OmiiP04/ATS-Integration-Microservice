@@ -26,6 +26,7 @@ def get_jobs(event, context):
         logger.error(f"Error in get_jobs: {str(e)}")
         return _response(500, {"error": str(e)})
 
+
 def create_candidate(event, context):
     logger.info("Received create_candidate request")
     try:
