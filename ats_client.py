@@ -57,7 +57,7 @@ class GreenhouseClient:
                 response.raise_for_status()
                 data = response.json()
                 
-                # Greenhouse returns a list directly for /jobs
+                # Greenhouse returns a list directly for /jobs 
                 current_jobs = data
                 
                 for job in current_jobs:
