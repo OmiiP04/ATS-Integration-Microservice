@@ -56,6 +56,7 @@ def get_applications(event, context):
         if not job_id:
             return _response(400, {"error": "Missing required query parameter: job_id"})
 
+        
         applications = ats_client.get_applications(job_id)
         return _response(200, applications)
     except Exception as e:
