@@ -53,3 +53,5 @@ def route_get_applications():
 if __name__ == '__main__':
     print("Starting local runner on http://localhost:5000")
     app.run(debug=True, port=5000)
+
+
