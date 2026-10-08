@@ -63,3 +63,5 @@ def get_applications(event, context):
         logger.error(f"Error in get_applications: {str(e)}")
         return _response(500, {"error": str(e)})
 
+
+
