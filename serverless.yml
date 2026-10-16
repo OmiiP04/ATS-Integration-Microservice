@@ -36,7 +36,6 @@ functions:
           method: post
           cors: true
 
-  
   getApplications:
     handler: handler.get_applications
     events:
